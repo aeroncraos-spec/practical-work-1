@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spider-Man: No Way Home</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Internal CSS -->
+  <style>
+    body {
+      background: linear-gradient(135deg, blue, red);
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .card {
+      background-color: rgba(0,0,0,0.7);
+      border-radius: 15px;
+      color: white;
+    }
+    .navbar {
+      background-color: rgba(0,0,0,0.85);
+    }
+    footer {
+      margin-top: 40px;
+      padding: 15px;
+      background: rgba(0,0,0,0.75);
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Spider-Man: No Way Home</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="container text-center my-4">
+    <h1 class="fw-bold">🕷 Spider-Man: No Way Home</h1>
+    <p class="lead">MARVEL STUDIO</p>
+  </div>
+
+  <!-- Bootstrap Carousel (Images) -->
+  <div id="movieCarousel" class="carousel slide container mb-4" data-bs-ride="carousel">
+    <div class="carousel-inner rounded">
+      <div class="carousel-item active">
+        <img src="images/image3.jpg" class="d-block w-100" alt="Spider-Man Poster">
+      </div>
+      <div class="carousel-item">
+        <img src="images/image2.jpg" class="d-block w-100" alt="Spider-Man Poster">
+      </div>
+      <div class="carousel-item">
+        <img src="images/image4.jpg" class="d-block w-100" alt="Spider-Man Poster">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#movieCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#movieCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!-- Movie Details (Grid + Cards) -->
+  <div class="container">
+    <div class="row g-4">
+
+      <div class="col-md-6">
+        <div class="card p-3">
+          <h3> Synopsis</h3>
+          <p>Peter Parker's secret identity is revealed to the entire world. Desperate for help, Peter turns to Doctor Strange to make the world forget that he is Spider-Man. The spell goes horribly wrong and shatters the multiverse, bringing in monstrous villains that could destroy the world.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card p-3">
+          <h3> Release Information</h3>
+          <ul>
+            <li><b>Release Date:</b> 17 December 2021 (Cinema)</li>
+            <li><b>Show Time:</b> 7:30 PM & 10:00 PM</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card p-3">
+          <h3> Cast</h3>
+          <ul>
+            <li>Tom Holland as Peter Parker / Spider-Man</li>
+            <li>Zendaya as Michelle "MJ" Jones-Watson</li>
+            <li>Benedict Cumberbatch as Dr. Stephen Strange</li>
+            <li>Jacob Batalon as Ned Leeds</li>
+            <li>Willem Dafoe as Norman Osborn / Green Goblin</li>
+            <li>Alfred Molina as Otto Octavius / Doctor Octopus</li>
+            <li>Jamie Foxx as Max Dillon / Electro</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card p-3">
+          <h3> Additional Info</h3>
+          <p>This is the third Spider-Man film in the MCU and features characters from different Spider-Man universes.</p>
+          <a href="https://www.marvel.com/movies/spider-man-no-way-home" target="_blank" class="btn btn-danger">Marvel Official Page</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center mt-4">
+    <p>Created by AERON CRAOS | Web Design Project | HTML, CSS & Bootstrap</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
